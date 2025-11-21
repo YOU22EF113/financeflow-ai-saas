@@ -1,9 +1,10 @@
 export default function Home() {
   return (
-    <main className="flex items-center justify-center h-screen">
-      <h1 className="text-3xl font-bold">
-        FinanceFlow AI
-      </h1>
-    </main>
+    <div className="text-center mt-20">
+      <h1 className="text-4xl font-bold mb-4">FinanceFlow AI</h1>
+      <p className="text-lg text-gray-600">
+        Your friendly AI-powered money assistant.
+      </p>
+    </div>
   );
 }

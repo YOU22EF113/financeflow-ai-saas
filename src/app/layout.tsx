@@ -22,8 +22,19 @@ export default function RootLayout({
             FinanceFlow AI
           </a>
 
-          <div className="flex items-center gap-4">
-            <a href="/login" className="hover:underline">Login</a>
+          <div className="flex items-center gap-6">
+            <a href="/dashboard" className="hover:underline">
+              Dashboard
+            </a>
+
+            <a href="/snapshot/new" className="hover:underline">
+              New Snapshot
+            </a>
+
+            <a href="/login" className="hover:underline">
+              Login
+            </a>
+
             <a
               href="/signup"
               className="px-4 py-2 bg-black text-white rounded hover:bg-gray-800"
@@ -34,9 +45,7 @@ export default function RootLayout({
         </nav>
 
         {/* MAIN CONTENT */}
-        <main className="max-w-4xl mx-auto px-4 py-8">
-          {children}
-        </main>
+        <main className="max-w-4xl mx-auto px-4 py-8">{children}</main>
       </body>
     </html>
   );

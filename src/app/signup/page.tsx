@@ -1,7 +1,7 @@
 export default function SignupPage() {
   return (
-    <div className="max-w-md mx-auto py-10">
-      <h1 className="text-2xl font-bold mb-6">Create an Account</h1>
+    <div className="max-w-md mx-auto mt-10">
+      <h1 className="text-3xl font-bold mb-6">Create an Account</h1>
 
       <form className="flex flex-col gap-4">
         <input
@@ -16,10 +16,7 @@ export default function SignupPage() {
           className="border p-2 rounded"
         />
 
-        <button
-          type="submit"
-          className="bg-black text-white py-2 rounded hover:bg-gray-800"
-        >
+        <button className="bg-black text-white py-2 rounded hover:bg-gray-800">
           Sign Up
         </button>
       </form>
